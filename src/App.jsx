@@ -1,13 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./App.css";
 import Layout from "./hoc/Layout/Layout";
-import Auxi from "./hoc/Auxi/Auxi";
 
 function App() {
   return (
-    <Auxi>
+    <Fragment>
       <Layout />
-    </Auxi>
+    </Fragment>
   );
 }
 
